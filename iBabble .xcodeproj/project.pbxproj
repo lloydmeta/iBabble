@@ -24,6 +24,9 @@
 		4F5085FC141EEFBB0017AEAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085FA141EEFBB0017AEAE /* InfoPlist.strings */; };
 		4F5085FF141EEFBB0017AEAE /* iBabble_Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085FE141EEFBB0017AEAE /* iBabble_Tests.h */; };
 		4F508601141EEFBB0017AEAE /* iBabble_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F508600141EEFBB0017AEAE /* iBabble_Tests.m */; };
+		4F50860D141EF30D0017AEAE /* BabbleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F50860C141EF30D0017AEAE /* BabbleModel.m */; };
+		4F50862B141EF6790017AEAE /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F508629141EF6790017AEAE /* UsersViewController.m */; };
+		4F50862C141EF6790017AEAE /* UsersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F50862A141EF6790017AEAE /* UsersViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +44,30 @@
 		4F5085CB141EEFBA0017AEAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4F5085CD141EEFBA0017AEAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F5085CF141EEFBA0017AEAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4F5085D3141EEFBA0017AEAE /* iBabble -Info.plist */ = {isa = PBXFileReference; path = "iBabble -Info.plist"; sourceTree = "<group>"; };
+		4F5085D3141EEFBA0017AEAE /* iBabble -Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBabble -Info.plist"; sourceTree = "<group>"; };
 		4F5085D5141EEFBA0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4F5085D7141EEFBB0017AEAE /* iBabble -Prefix.pch */ = {isa = PBXFileReference; path = "iBabble -Prefix.pch"; sourceTree = "<group>"; };
+		4F5085D7141EEFBB0017AEAE /* iBabble -Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBabble -Prefix.pch"; sourceTree = "<group>"; };
 		4F5085D8141EEFBB0017AEAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F5085DA141EEFBB0017AEAE /* iBabble_AppDelegate.h */ = {isa = PBXFileReference; path = iBabble_AppDelegate.h; sourceTree = "<group>"; };
+		4F5085DA141EEFBB0017AEAE /* iBabble_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBabble_AppDelegate.h; sourceTree = "<group>"; };
 		4F5085DB141EEFBB0017AEAE /* iBabble_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBabble_AppDelegate.m; sourceTree = "<group>"; };
 		4F5085DE141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4F5085E0141EEFBB0017AEAE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		4F5085E0141EEFBB0017AEAE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		4F5085E1141EEFBB0017AEAE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		4F5085E3141EEFBB0017AEAE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		4F5085E3141EEFBB0017AEAE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		4F5085E4141EEFBB0017AEAE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		4F5085E7141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		4F5085EA141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		4F5085F1141EEFBB0017AEAE /* iBabble Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iBabble Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5085F9141EEFBB0017AEAE /* iBabble Tests-Info.plist */ = {isa = PBXFileReference; path = "iBabble Tests-Info.plist"; sourceTree = "<group>"; };
+		4F5085F9141EEFBB0017AEAE /* iBabble Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBabble Tests-Info.plist"; sourceTree = "<group>"; };
 		4F5085FB141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4F5085FD141EEFBB0017AEAE /* iBabble Tests-Prefix.pch */ = {isa = PBXFileReference; path = "iBabble Tests-Prefix.pch"; sourceTree = "<group>"; };
+		4F5085FD141EEFBB0017AEAE /* iBabble Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBabble Tests-Prefix.pch"; sourceTree = "<group>"; };
 		4F5085FE141EEFBB0017AEAE /* iBabble_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBabble_Tests.h; sourceTree = "<group>"; };
 		4F508600141EEFBB0017AEAE /* iBabble_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBabble_Tests.m; sourceTree = "<group>"; };
+		4F50860B141EF30D0017AEAE /* BabbleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabbleModel.h; sourceTree = "<group>"; };
+		4F50860C141EF30D0017AEAE /* BabbleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabbleModel.m; sourceTree = "<group>"; };
+		4F508628141EF6790017AEAE /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		4F508629141EF6790017AEAE /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		4F50862A141EF6790017AEAE /* UsersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,8 @@
 		4F5085D1141EEFBA0017AEAE /* iBabble  */ = {
 			isa = PBXGroup;
 			children = (
+				4F508626141EF6010017AEAE /* Controllers */,
+				4F50860A141EF2AC0017AEAE /* Models */,
 				4F5085DA141EEFBB0017AEAE /* iBabble_AppDelegate.h */,
 				4F5085DB141EEFBB0017AEAE /* iBabble_AppDelegate.m */,
 				4F5085DD141EEFBB0017AEAE /* MainWindow.xib */,
@@ -161,6 +171,25 @@
 				4F5085FD141EEFBB0017AEAE /* iBabble Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F50860A141EF2AC0017AEAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F50860B141EF30D0017AEAE /* BabbleModel.h */,
+				4F50860C141EF30D0017AEAE /* BabbleModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4F508626141EF6010017AEAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F508628141EF6790017AEAE /* UsersViewController.h */,
+				4F508629141EF6790017AEAE /* UsersViewController.m */,
+				4F50862A141EF6790017AEAE /* UsersViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +263,7 @@
 				4F5085DF141EEFBB0017AEAE /* MainWindow.xib in Resources */,
 				4F5085E8141EEFBB0017AEAE /* FirstView.xib in Resources */,
 				4F5085EB141EEFBB0017AEAE /* SecondView.xib in Resources */,
+				4F50862C141EF6790017AEAE /* UsersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +303,8 @@
 				4F5085DC141EEFBB0017AEAE /* iBabble_AppDelegate.m in Sources */,
 				4F5085E2141EEFBB0017AEAE /* FirstViewController.m in Sources */,
 				4F5085E5141EEFBB0017AEAE /* SecondViewController.m in Sources */,
+				4F50860D141EF30D0017AEAE /* BabbleModel.m in Sources */,
+				4F50862B141EF6790017AEAE /* UsersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBabble /iBabble -Prefix.pch";
 				INFOPLIST_FILE = "iBabble /iBabble -Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +425,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBabble /iBabble -Prefix.pch";
 				INFOPLIST_FILE = "iBabble /iBabble -Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -461,6 +495,7 @@
 				4F508606141EEFBB0017AEAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F508607141EEFBB0017AEAE /* Build configuration list for PBXNativeTarget "iBabble Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +504,7 @@
 				4F508609141EEFBB0017AEAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
