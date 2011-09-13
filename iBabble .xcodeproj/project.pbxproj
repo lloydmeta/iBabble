@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5085CC141EEFBA0017AEAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5085CB141EEFBA0017AEAE /* UIKit.framework */; };
+		4F5085CE141EEFBA0017AEAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5085CD141EEFBA0017AEAE /* Foundation.framework */; };
+		4F5085D0141EEFBA0017AEAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5085CF141EEFBA0017AEAE /* CoreGraphics.framework */; };
+		4F5085D6141EEFBA0017AEAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085D4141EEFBA0017AEAE /* InfoPlist.strings */; };
+		4F5085D9141EEFBB0017AEAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5085D8141EEFBB0017AEAE /* main.m */; };
+		4F5085DC141EEFBB0017AEAE /* iBabble_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5085DB141EEFBB0017AEAE /* iBabble_AppDelegate.m */; };
+		4F5085DF141EEFBB0017AEAE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085DD141EEFBB0017AEAE /* MainWindow.xib */; };
+		4F5085E2141EEFBB0017AEAE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5085E1141EEFBB0017AEAE /* FirstViewController.m */; };
+		4F5085E5141EEFBB0017AEAE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5085E4141EEFBB0017AEAE /* SecondViewController.m */; };
+		4F5085E8141EEFBB0017AEAE /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085E6141EEFBB0017AEAE /* FirstView.xib */; };
+		4F5085EB141EEFBB0017AEAE /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085E9141EEFBB0017AEAE /* SecondView.xib */; };
+		4F5085F2141EEFBB0017AEAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5085CB141EEFBA0017AEAE /* UIKit.framework */; };
+		4F5085F3141EEFBB0017AEAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5085CD141EEFBA0017AEAE /* Foundation.framework */; };
+		4F5085F4141EEFBB0017AEAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5085CF141EEFBA0017AEAE /* CoreGraphics.framework */; };
+		4F5085FC141EEFBB0017AEAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085FA141EEFBB0017AEAE /* InfoPlist.strings */; };
+		4F5085FF141EEFBB0017AEAE /* iBabble_Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4F5085FE141EEFBB0017AEAE /* iBabble_Tests.h */; };
+		4F508601141EEFBB0017AEAE /* iBabble_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F508600141EEFBB0017AEAE /* iBabble_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F5085F5141EEFBB0017AEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F5085BE141EEFBA0017AEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F5085C6141EEFBA0017AEAE;
+			remoteInfo = "iBabble ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F5085C7141EEFBA0017AEAE /* iBabble .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iBabble .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5085CB141EEFBA0017AEAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F5085CD141EEFBA0017AEAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F5085CF141EEFBA0017AEAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F5085D3141EEFBA0017AEAE /* iBabble -Info.plist */ = {isa = PBXFileReference; path = "iBabble -Info.plist"; sourceTree = "<group>"; };
+		4F5085D5141EEFBA0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F5085D7141EEFBB0017AEAE /* iBabble -Prefix.pch */ = {isa = PBXFileReference; path = "iBabble -Prefix.pch"; sourceTree = "<group>"; };
+		4F5085D8141EEFBB0017AEAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F5085DA141EEFBB0017AEAE /* iBabble_AppDelegate.h */ = {isa = PBXFileReference; path = iBabble_AppDelegate.h; sourceTree = "<group>"; };
+		4F5085DB141EEFBB0017AEAE /* iBabble_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBabble_AppDelegate.m; sourceTree = "<group>"; };
+		4F5085DE141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4F5085E0141EEFBB0017AEAE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		4F5085E1141EEFBB0017AEAE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4F5085E3141EEFBB0017AEAE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		4F5085E4141EEFBB0017AEAE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4F5085E7141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		4F5085EA141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		4F5085F1141EEFBB0017AEAE /* iBabble Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iBabble Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5085F9141EEFBB0017AEAE /* iBabble Tests-Info.plist */ = {isa = PBXFileReference; path = "iBabble Tests-Info.plist"; sourceTree = "<group>"; };
+		4F5085FB141EEFBB0017AEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F5085FD141EEFBB0017AEAE /* iBabble Tests-Prefix.pch */ = {isa = PBXFileReference; path = "iBabble Tests-Prefix.pch"; sourceTree = "<group>"; };
+		4F5085FE141EEFBB0017AEAE /* iBabble_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBabble_Tests.h; sourceTree = "<group>"; };
+		4F508600141EEFBB0017AEAE /* iBabble_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBabble_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5085C4141EEFBA0017AEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5085CC141EEFBA0017AEAE /* UIKit.framework in Frameworks */,
+				4F5085CE141EEFBA0017AEAE /* Foundation.framework in Frameworks */,
+				4F5085D0141EEFBA0017AEAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5085ED141EEFBB0017AEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5085F2141EEFBB0017AEAE /* UIKit.framework in Frameworks */,
+				4F5085F3141EEFBB0017AEAE /* Foundation.framework in Frameworks */,
+				4F5085F4141EEFBB0017AEAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5085BC141EEFBA0017AEAE = {
+			isa = PBXGroup;
+			children = (
+				4F5085D1141EEFBA0017AEAE /* iBabble  */,
+				4F5085F7141EEFBB0017AEAE /* iBabble Tests */,
+				4F5085CA141EEFBA0017AEAE /* Frameworks */,
+				4F5085C8141EEFBA0017AEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5085C8141EEFBA0017AEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5085C7141EEFBA0017AEAE /* iBabble .app */,
+				4F5085F1141EEFBB0017AEAE /* iBabble Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5085CA141EEFBA0017AEAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5085CB141EEFBA0017AEAE /* UIKit.framework */,
+				4F5085CD141EEFBA0017AEAE /* Foundation.framework */,
+				4F5085CF141EEFBA0017AEAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F5085D1141EEFBA0017AEAE /* iBabble  */ = {
+			isa = PBXGroup;
+			children = (
+				4F5085DA141EEFBB0017AEAE /* iBabble_AppDelegate.h */,
+				4F5085DB141EEFBB0017AEAE /* iBabble_AppDelegate.m */,
+				4F5085DD141EEFBB0017AEAE /* MainWindow.xib */,
+				4F5085E0141EEFBB0017AEAE /* FirstViewController.h */,
+				4F5085E1141EEFBB0017AEAE /* FirstViewController.m */,
+				4F5085E3141EEFBB0017AEAE /* SecondViewController.h */,
+				4F5085E4141EEFBB0017AEAE /* SecondViewController.m */,
+				4F5085E6141EEFBB0017AEAE /* FirstView.xib */,
+				4F5085E9141EEFBB0017AEAE /* SecondView.xib */,
+				4F5085D2141EEFBA0017AEAE /* Supporting Files */,
+			);
+			path = "iBabble ";
+			sourceTree = "<group>";
+		};
+		4F5085D2141EEFBA0017AEAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5085D3141EEFBA0017AEAE /* iBabble -Info.plist */,
+				4F5085D4141EEFBA0017AEAE /* InfoPlist.strings */,
+				4F5085D7141EEFBB0017AEAE /* iBabble -Prefix.pch */,
+				4F5085D8141EEFBB0017AEAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F5085F7141EEFBB0017AEAE /* iBabble Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F5085FE141EEFBB0017AEAE /* iBabble_Tests.h */,
+				4F508600141EEFBB0017AEAE /* iBabble_Tests.m */,
+				4F5085F8141EEFBB0017AEAE /* Supporting Files */,
+			);
+			path = "iBabble Tests";
+			sourceTree = "<group>";
+		};
+		4F5085F8141EEFBB0017AEAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5085F9141EEFBB0017AEAE /* iBabble Tests-Info.plist */,
+				4F5085FA141EEFBB0017AEAE /* InfoPlist.strings */,
+				4F5085FD141EEFBB0017AEAE /* iBabble Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5085C6141EEFBA0017AEAE /* iBabble  */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F508604141EEFBB0017AEAE /* Build configuration list for PBXNativeTarget "iBabble " */;
+			buildPhases = (
+				4F5085C3141EEFBA0017AEAE /* Sources */,
+				4F5085C4141EEFBA0017AEAE /* Frameworks */,
+				4F5085C5141EEFBA0017AEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iBabble ";
+			productName = "iBabble ";
+			productReference = 4F5085C7141EEFBA0017AEAE /* iBabble .app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F5085F0141EEFBB0017AEAE /* iBabble Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F508607141EEFBB0017AEAE /* Build configuration list for PBXNativeTarget "iBabble Tests" */;
+			buildPhases = (
+				4F5085EC141EEFBB0017AEAE /* Sources */,
+				4F5085ED141EEFBB0017AEAE /* Frameworks */,
+				4F5085EE141EEFBB0017AEAE /* Resources */,
+				4F5085EF141EEFBB0017AEAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F5085F6141EEFBB0017AEAE /* PBXTargetDependency */,
+			);
+			name = "iBabble Tests";
+			productName = "iBabble Tests";
+			productReference = 4F5085F1141EEFBB0017AEAE /* iBabble Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5085BE141EEFBA0017AEAE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4F5085C1141EEFBA0017AEAE /* Build configuration list for PBXProject "iBabble " */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F5085BC141EEFBA0017AEAE;
+			productRefGroup = 4F5085C8141EEFBA0017AEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5085C6141EEFBA0017AEAE /* iBabble  */,
+				4F5085F0141EEFBB0017AEAE /* iBabble Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5085C5141EEFBA0017AEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5085D6141EEFBA0017AEAE /* InfoPlist.strings in Resources */,
+				4F5085DF141EEFBB0017AEAE /* MainWindow.xib in Resources */,
+				4F5085E8141EEFBB0017AEAE /* FirstView.xib in Resources */,
+				4F5085EB141EEFBB0017AEAE /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5085EE141EEFBB0017AEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5085FC141EEFBB0017AEAE /* InfoPlist.strings in Resources */,
+				4F5085FF141EEFBB0017AEAE /* iBabble_Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F5085EF141EEFBB0017AEAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5085C3141EEFBA0017AEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5085D9141EEFBB0017AEAE /* main.m in Sources */,
+				4F5085DC141EEFBB0017AEAE /* iBabble_AppDelegate.m in Sources */,
+				4F5085E2141EEFBB0017AEAE /* FirstViewController.m in Sources */,
+				4F5085E5141EEFBB0017AEAE /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5085EC141EEFBB0017AEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F508601141EEFBB0017AEAE /* iBabble_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F5085F6141EEFBB0017AEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F5085C6141EEFBA0017AEAE /* iBabble  */;
+			targetProxy = 4F5085F5141EEFBB0017AEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F5085D4141EEFBA0017AEAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5085D5141EEFBA0017AEAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F5085DD141EEFBB0017AEAE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5085DE141EEFBB0017AEAE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4F5085E6141EEFBB0017AEAE /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5085E7141EEFBB0017AEAE /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		4F5085E9141EEFBB0017AEAE /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5085EA141EEFBB0017AEAE /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		4F5085FA141EEFBB0017AEAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5085FB141EEFBB0017AEAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F508602141EEFBB0017AEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F508603141EEFBB0017AEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4F508605141EEFBB0017AEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBabble /iBabble -Prefix.pch";
+				INFOPLIST_FILE = "iBabble /iBabble -Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F508606141EEFBB0017AEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBabble /iBabble -Prefix.pch";
+				INFOPLIST_FILE = "iBabble /iBabble -Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F508608141EEFBB0017AEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBabble .app/iBabble ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBabble Tests/iBabble Tests-Prefix.pch";
+				INFOPLIST_FILE = "iBabble Tests/iBabble Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4F508609141EEFBB0017AEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBabble .app/iBabble ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBabble Tests/iBabble Tests-Prefix.pch";
+				INFOPLIST_FILE = "iBabble Tests/iBabble Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5085C1141EEFBA0017AEAE /* Build configuration list for PBXProject "iBabble " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F508602141EEFBB0017AEAE /* Debug */,
+				4F508603141EEFBB0017AEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F508604141EEFBB0017AEAE /* Build configuration list for PBXNativeTarget "iBabble " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F508605141EEFBB0017AEAE /* Debug */,
+				4F508606141EEFBB0017AEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F508607141EEFBB0017AEAE /* Build configuration list for PBXNativeTarget "iBabble Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F508608141EEFBB0017AEAE /* Debug */,
+				4F508609141EEFBB0017AEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5085BE141EEFBA0017AEAE /* Project object */;
+}
